@@ -1,0 +1,23 @@
+// Visual Age C++ 4.0 build file
+//
+// USAGE: vacbld astyle.icc
+//
+
+option opt1 =
+       gen(arch, "pentium2"), opt(tune, "pentium2"),
+       opt(level, "2"),
+       incl(searchpath, "./")
+
+option opt = opt1
+
+option opt
+{
+   target "astyle.exe"
+   {
+       source type("cpp") "ASResource.cpp"
+       source type("cpp") "ASBeautifier.cpp"
+       source type("cpp") "ASFormatter.cpp"
+       source type("cpp") "astyle_main.cpp"
+   }
+}
+

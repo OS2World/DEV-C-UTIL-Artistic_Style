@@ -1,0 +1,14 @@
+Welcome to Artistic Style/2!
+
+Precompiled binary is under .\os2.bin subdirectory.
+
+Port was done with Visual Age C++ 4.0+p1.
+Well, I just compiled it withouth any problem, no patches were required.
+To compile it again all you need in astyle.icc:
+
+[c:\astyle]vacbld astyle.icc
+
+Thats all.
+
+Comments and suggestions to OS/2 port are welcome.
+"Sergey I. Yevtushenko" <evsi@naverex.kiev.ua>
